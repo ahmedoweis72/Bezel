@@ -1,0 +1,498 @@
+.home-slide-overly {
+    background: linear-gradient(rgba(31, 32, 33, 0.623), rgba(31, 32, 33, 0.521));
+    color: white;
+}
+
+.home-slide-overly a {
+    transition: all 2s;
+}
+
+.home-slide-overly a:hover {
+    position: relative;
+    bottom: 1%;
+
+}
+
+.home-slide-overly .btn-info:hover {
+    color: #ffffff;
+
+}
+
+
+.home-slide-overly a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    font-style: normal;
+    opacity: 0;
+    animation: visiple 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+.home-slide-overly h1 {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 125px;
+    font-style: normal;
+    text-align: center;
+    opacity: 0;
+    animation: visiple 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.home-slide-overly h4 {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    font-style: normal;
+    text-align: center;
+    opacity: 0;
+    animation: visiple 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.btn-slider1 {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+
+}
+
+.btn-slider2 {
+    width: 50px;
+    height: 50px;
+    top: 42%;
+
+}
+
+.arrow-bg {
+    background-color: rgba(255, 255, 255, 0.897);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+
+}
+
+.btn-slider2:hover .arrow-bg {
+    right: 0;
+    transition: all 1s;
+
+}
+
+.btn-slider1:hover .arrow-bg {
+    right: 0;
+    transition: all 1s;
+}
+
+.btn-slider1:hover {
+    color: #000;
+
+}
+
+.btn-slider2:hover {
+    color: #000;
+}
+
+.carousel-control-next {
+    color: #ffffff !important;
+}
+
+.carousel-control-prev {
+    color: #ffffff !important;
+}
+
+@keyframes visiple {
+    15% {
+        opacity: 0.15;
+    }
+
+    30% {
+        opacity: 0.2;
+    }
+
+    45% {
+        opacity: 0.3;
+    }
+
+    60% {
+        opacity: 0.4.5;
+    }
+
+    75% {
+        opacity: 0.6;
+    }
+
+    85% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width:640px) {
+
+    .btn-slider1,
+    .btn-slider2 {
+        visibility: hidden;
+    }
+
+    .home-slide-overly a {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+        font-style: normal;
+    }
+
+    .home-slide-overly h1 {
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 78px;
+        font-style: normal;
+
+
+    }
+
+    .home-slide-overly h4 {
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        font-style: normal;
+
+    }
+}
+
+/* ----------------------------------------------------------------about--------------------------------------------------------------- */
+.font-about h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    font-style: normal;
+    color: rgb(31, 31, 31);
+}
+
+.font-about p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    color: rgb(120, 120, 120);
+}
+
+.font-about span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    color: rgb(0, 195, 218);
+}
+
+.font-about a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+/* ----------------------------------------------------------------team--------------------------------------------------------------- */
+.font-team h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    font-style: normal;
+    color: rgb(31, 31, 31);
+    position: relative;
+}
+
+.font-team p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    font-style: normal;
+    color: rgb(120, 120, 120);
+}
+
+.font-team h1::before {
+    content: "C";
+    color: #F2F2F2;
+    font-size: 78px;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.font-team-card p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.font-team-card span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.team-card-content {
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.team-card:hover .team-card-content {
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+/* ----------------------------------------------------------------Services--------------------------------------------------------------- */
+.services {
+    background-color: #626262;
+}
+
+.font-services p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.font-services h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.font-services h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+
+.font-services h1::before {
+    content: "W";
+    color: #6B6B6B;
+    font-size: 80px;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+@media (min-width:991px) {
+
+    .font-services h1::before {
+        content: "W";
+        color: #6B6B6B;
+        font-size: 80px;
+        position: absolute;
+        left: 10%;
+        bottom: 30%;
+        z-index: -1;
+    }
+
+}
+
+/* ----------------------------------------------------------------pricing--------------------------------------------------------------- */
+.font-pricing p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: rgb(120, 120, 120);
+}
+
+.font-pricing h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    font-style: normal;
+    color: rgb(31, 31, 31);
+    position: relative;
+    z-index: 1;
+}
+
+.font-pricing h1::before {
+    content: "C";
+    color: #cfcaca;
+    font-size: 80px;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.card-font h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    font-style: normal;
+    color: rgb(31, 31, 31);
+}
+
+.card-font span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 72px;
+    font-style: normal;
+    color: rgb(31, 31, 31);
+    position: relative;
+
+    span {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        font-style: normal;
+        color: rgb(31, 31, 31);
+        position: absolute;
+        bottom: 70%;
+        left: -15%;
+    }
+}
+
+.card-font p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: rgb(120, 120, 120);
+}
+
+.card-font a {
+    position: relative;
+    transition: all 1s;
+    z-index: 55;
+}
+
+.card-font a:hover {
+    position: relative;
+    left: 1%;
+}
+
+/* ----------------------------------------------------------------pricing--------------------------------------------------------------- */
+.testimonial-comment {
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        font-style: normal;
+        color: rgb(120, 120, 120);
+    }
+
+    p {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        font-style: normal;
+        color: rgb(120, 120, 120);
+    }
+
+    span {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        font-style: normal;
+        color: rgb(120, 120, 120);
+    }
+}
+
+/* ----------------------------------------------------------------Footer--------------------------------------------------------------- */
+.font-footer h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    font-style: normal;
+    color: rgb(31, 31, 31);
+    position: relative;
+    z-index: 1;
+}
+
+.font-footer h1::before {
+    content: "G";
+    color: #F2F2F2;
+    font-size: 80px;
+    position: absolute;
+    left: 2%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.font-footer p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: rgb(120, 120, 120);
+}
+
+.font-footer button {
+    transition: all 1s;
+    margin-top: 50px;
+}
+
+.font-footer button:hover {
+    position: relative;
+    bottom: 1px;
+}
